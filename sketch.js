@@ -58,7 +58,7 @@ function setup() {
   
 
   submarine.setCollider("rectangle",0,20,300,75)
-  submarine.debug=true;
+  submarine.debug=false;
 }
 
 function draw() {
@@ -178,7 +178,7 @@ function obstacles() {
     obstacle.scale = 0.5;
     obstacle.depth = submarine.depth + 1;
     obstacleGroup.add(obstacle);
-    obstacle.debug=true;
+    obstacle.debug=false;
   }
 }
 
